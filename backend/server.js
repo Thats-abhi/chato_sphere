@@ -43,7 +43,7 @@ const server = http.createServer(app);
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "http://localhost:3000", // Adjust to your frontend URL
+    origin: "https://chato-sphere-1.onrender.com", // Adjust to your frontend URL
     credentials: true,
   },
 });
