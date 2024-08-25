@@ -11,7 +11,7 @@ import { ChatState } from '../context/chatProvider';
 import animationData from "../animations/typing.json";
 
 
-const ENDPOINT = "https://web-chat-app-7-dq9h.onrender.com/"; // Update this to your production endpoint if necessary
+const ENDPOINT = "https://chato-sphere-1.onrender.com/"; // Update this to your production endpoint if necessary
 let socket;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
