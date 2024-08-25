@@ -51,7 +51,7 @@ const Signuppage = () => {
         zIndex="2"
       >
         <Text fontSize="xl" fontWeight="bold">
-          Web Chat App
+          Chatosphere
         </Text>
         <Link to="/login">
           <Button colorScheme="teal" variant="outline">
